@@ -4,25 +4,44 @@
 
 
  /**
-  * Layout Settings
+  * Base Layout Settings
   */
 #layoutHead {
 
 }
 
-#layoutBody {
+#layoutBody1 {
     background-color: #424250
 }
+
 
 #layoutFooter {
 
 }
 
+/**
+ * Layer 2 Layout Settings
+ */
+.layoutBody2 {
+    background-color: #33333D;
+    width: auto;
+    height: auto;
+}
 
-.nav {
+/**
+ * Navbar Settings
+ */
+.navbar {
     width: auto;
     height: 60%;
     padding: 0%;
     display: block;
-    background-color: #33333D    
+    background-color: #33333D;
+}
+
+/**
+ * Navbar Text
+ */
+.navbar ul {
+    text-align: center;
 }
