@@ -2,14 +2,27 @@
  * CSS THeme
  */
 
-head {
+
+ /**
+  * Layout Settings
+  */
+#layoutHead {
 
 }
 
-body {
+#layoutBody {
     background-color: #424250
 }
 
-nav {
-    background-color: #33333D
+#layoutFooter {
+
+}
+
+
+.nav {
+    width: auto;
+    height: 60%;
+    padding: 0%;
+    display: block;
+    background-color: #33333D    
 }
