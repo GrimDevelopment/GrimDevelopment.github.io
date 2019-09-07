@@ -11,6 +11,8 @@
 }
 
 #layoutBody1 {
+    position: relative;
+    z-index: 1;
     background-color: #424250
 }
 
@@ -23,9 +25,11 @@
  * Layer 2 Layout Settings
  */
 .layoutBody2 {
+    position: relative;
+    z-index: 2;
     background-color: #33333D;
     width: auto;
-    height: auto;
+    height: 1000px;    
 }
 
 /**
@@ -33,10 +37,10 @@
  */
 .navbar {
     width: auto;
-    height: 60%;
+    height: 40px;
     padding: 0%;
     display: block;
-    background-color: #33333D;
+    background-color:white;
 }
 
 /**
