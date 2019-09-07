@@ -40,12 +40,36 @@
     height: 40px;
     padding: 0%;
     display: block;
-    background-color:white;
+    background-color:gray;
 }
 
 /**
- * Navbar Text
+ * Navbar content list
  */
 .navbar ul {
     text-align: center;
+}
+
+/**
+ * Navbar Buttons
+ */
+.btnHome {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.btnGithub {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.btnJs {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+.btnJquery {
+    width: 10%;
+    padding: 10px;
+    text-align: center
 }
