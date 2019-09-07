@@ -2,77 +2,65 @@
  * CSS THeme
  */
 
-
- /**
-  * Base Layout Settings
-  */
 #layoutHead {
 
 }
-
 #layoutBody {
     position: relative;
-    z-index: 1;
     background-color: #424250
 }
-
-
 #layoutFooter {
 
 }
-
-/**
- * Layer 2 Layout Settings
- */
-.container {
+.headerContainer {
     position: relative;
-    z-index: 2;
-    background-color: #33333D;
+    background-color: black;
     width: auto;
-    height: 1000px;    
+    height: 200px;
 }
-
-/**
- * Navbar Settings
- */
 .navbar {
     position: relative;
-    top: 100px;
     width: auto;
     height: 40px;
+    top: 150px;
     padding: 0%;
     display: block;
-    background-color:gray;
     
 }
-
-/**
- * Navbar content list
- */
 .navbar ul {
     text-align: center;
 }
-
-/**
- * Navbar Buttons
- */
 .btnHome {
     width: 10%;
     padding: 10px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 .btnGithub {
     width: 10%;
     padding: 10px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 .btnJs {
     width: 10%;
     padding: 10px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 .btnJquery {
     width: 10%;
     padding: 10px;
-    text-align: center
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.photoOne {
+    width: 50px;
+}
+.mainFrame {
+    
 }
