@@ -6,11 +6,11 @@
 
         <title>This is my test title</title>
         <link rel="stylesheet" type="text/css" href="divParent.css">
-        <link rel="stylesheet" type="text/css" href="containTop.css">
-        <link rel="stylesheet" type="text/css" href="containCenter.css">
-        <link rel="stylesheet" type="text/css" href="containBottom.css">
-        <link rel="stylesheet" type="text/css" href="containLeft.css">
-        <link rel="stylesheet" type="text/css" href="containRight.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="centerBody.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="sidebarLeft.css">
+        <link rel="stylesheet" type="text/css" href="sidebarRight.css">
         <link rel="stylesheet" type="text/css" href="buttons.css">
         <link rel="stylesheet" type="text/css" href="images.css">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -19,7 +19,7 @@
     <!-- This is the body of the webpage -->
     <body id="layoutBody">
         <div class="parent">
-            <div class="containTop">
+            <div class="header">
                 <nav class="nav">
                     <button class="btnHome" type="button">
                             <a href="http://grimdevelopment.com">
@@ -32,21 +32,34 @@
                         </a>
                     </button>
                     <button class="btnJquery" type="button">
-                        <a href="http://google.com">
-                            test1
+                        <a href="/team/">
+                            team
                         </a>
                     </button>
                     <button class="btnJs" type="button">
-                        <a href="http://google.com">
-                            test2
+                        <a href="/contact/">
+                            contact
                         </a>
                     </button>
                 </nav>
             </div>
-            <div class="containCenter"> </div>
-            <div class="containBottom"> </div>
-            <div class="containLeft"> </div>
-            <div class="containRight"> </div>
+            <div class="centerBody">
+                <div class="containImages">
+                    <button class="btnLeft" onclick="plusDivs(-1)">
+                        &#10094;
+                    </button>
+                    <button class="btnRight" onclick="plusDivs(+1)">
+                        &#10095;
+                    </button>
+                    <img class="imageOne" src="/images/imageOne.jpg"></img>
+                    <img class="imageOne" src="/images/imageTwo.jpg"></img>
+                    <img class="imageOne" src="/images/imageThree.jpg"></img>
+                    <img class="imageOne" src="/images/imageFour.jpg"></img>
+                </div>
+            </div>
+            <div class="containFooter"> </div>
+            <div class="sidebarLeft"> </div>
+            <div class="sidebarRight"> </div>
         </div>
     </body>
 

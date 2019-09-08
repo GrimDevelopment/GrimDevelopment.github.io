@@ -9,3 +9,14 @@
 #layoutFooter {
 
 }
+
+.parent {
+    display: grid;
+    width: auto;
+    height: 712;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid #73AD21;
+}
