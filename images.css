@@ -9,6 +9,8 @@
     position: relative;
     left: 25px;
     top: 0px;
+    margin: 10px 10px;
+    overflow: hidden;
 }
 
 .slideImage {
