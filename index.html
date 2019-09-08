@@ -2,38 +2,51 @@
 <html>
     <!-- Tab Title -->
     <head id="layoudHead">
+        <meta charset="utf-8">
+
         <title>This is my test title</title>
-        <link rel="stylesheet" type="text/css" href="theme.css">        
+        <link rel="stylesheet" type="text/css" href="divParent.css">
+        <link rel="stylesheet" type="text/css" href="containTop.css">
+        <link rel="stylesheet" type="text/css" href="containCenter.css">
+        <link rel="stylesheet" type="text/css" href="containBottom.css">
+        <link rel="stylesheet" type="text/css" href="containLeft.css">
+        <link rel="stylesheet" type="text/css" href="containRight.css">
+        <link rel="stylesheet" type="text/css" href="buttons.css">
+        <link rel="stylesheet" type="text/css" href="images.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
 
     <!-- This is the body of the webpage -->
     <body id="layoutBody">
-        <header>
-            <div class="headerContainer">
-                <nav class="navbar">
-                    <ul class="navbarList">
-                        <a href="http://grimdevelopment.github.io">
-                            <button class="btnHome" type="button">home</button>
+        <div class="parent">
+            <div class="containTop">
+                <nav class="nav">
+                    <button class="btnHome" type="button">
+                            <a href="http://grimdevelopment.com">
+                                home
+                            </a>
+                    </button>
+                    <button class="btnGithub" type="button">
+                        <a href="http://github.com/grimdevelopment">
+                        github
                         </a>
-                        <a href="https://github.com/GrimDevelopment">
-                            <button class="btnGithub" type="button">github</button>
+                    </button>
+                    <button class="btnJquery" type="button">
+                        <a href="http://google.com">
+                            test1
                         </a>
-                        <a href="/js/">
-                            <button class="btnJs" type="button">JS</button>
+                    </button>
+                    <button class="btnJs" type="button">
+                        <a href="http://google.com">
+                            test2
                         </a>
-                        <a href="/jquery/">
-                            <button class="btnJquery"type="button">jquery</button>
-                        </a>
-                    </ul>            
+                    </button>
                 </nav>
             </div>
-        </header>
-
-        <div class="mainBar">
-            <iframe class="mainFrame">
-
-            </iframe>
-            
+            <div class="containCenter"> </div>
+            <div class="containBottom"> </div>
+            <div class="containLeft"> </div>
+            <div class="containRight"> </div>
         </div>
     </body>
 

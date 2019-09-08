@@ -1,70 +1,51 @@
 /**
- * CSS THeme
+ * Button Design
  */
-
-#layoutHead {
-
-}
-#layoutBody {
-    position: relative;
-    background-color: #424250
-}
-#layoutFooter {
-
-}
-.headerContainer {
-    position: relative;
-    background-color: black;
-    width: auto;
-    height: 200px;
-}
-.navbar {
-    position: relative;
-    width: auto;
-    height: 40px;
-    top: 150px;
-    padding: 0%;
-    display: block;
-    
-}
-.navbar ul {
-    text-align: center;
-}
 .btnHome {
-    width: 10%;
+    width: 100px;
+    height: 50px;
     padding: 10px;
     text-align: center;
     background-color: black;
     color: white;
     font-variant: small-caps;
+    position: absolute;
+    border: 2px solid #73AD21;
+    left: 0px;
 }
 .btnGithub {
-    width: 10%;
+    width: 100px;
+    height: 50px;
     padding: 10px;
     text-align: center;
     background-color: black;
     color: white;
     font-variant: small-caps;
+    position: absolute;
+    border: 2px solid #73AD21;
+    left: 100px;
 }
 .btnJs {
-    width: 10%;
+    width: 100px;
+    height: 50px;
     padding: 10px;
     text-align: center;
     background-color: black;
     color: white;
     font-variant: small-caps;
+    position: absolute;
+    left: 200px;
+    border: 2px solid #73AD21;
 }
 .btnJquery {
-    width: 10%;
+    width: 100px;
+    height: 50px;
     padding: 10px;
     text-align: center;
     background-color: black;
     color: white;
     font-variant: small-caps;
-}
-.photoOne {
-    width: 50px;
-}
-.mainFrame {
-    
+    position: absolute;
+    left: 300px;
+    border: 2px solid #73AD21;
 }

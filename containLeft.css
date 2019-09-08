@@ -1,0 +1,9 @@
+.containLeft {
+    position: relative;
+    background-color: black;
+    border-width: 8px;
+    grid-area: 2 / 1 / 5 / 2;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+}
