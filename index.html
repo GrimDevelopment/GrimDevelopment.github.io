@@ -3,7 +3,7 @@
     <!-- Tab Title -->
     <head id="layoudHead">
         <meta charset="utf-8">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>This is my test title</title>
         <link rel="stylesheet" type="text/css" href="divParent.css">
         <link rel="stylesheet" type="text/css" href="header.css">
@@ -14,11 +14,13 @@
         <link rel="stylesheet" type="text/css" href="buttons.css">
         <link rel="stylesheet" type="text/css" href="images.css">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="slideshow.js"></script>
     </head>
 
     <!-- This is the body of the webpage -->
     <body id="layoutBody">
         <div class="parent">
+            <!-- Start Header -->
             <div class="header">
                 <nav class="nav">
                     <button class="btnHome" type="button">
@@ -43,28 +45,33 @@
                     </button>
                 </nav>
             </div>
+            <!-- End Header -->
+            <!-- Start Center Body-->
             <div class="centerBody">
-                <div class="containImages">
                     <button class="btnLeft" onclick="plusDivs(-1)">
                         &#10094;
                     </button>
                     <button class="btnRight" onclick="plusDivs(+1)">
                         &#10095;
                     </button>
-                    <img class="imageOne" src="/images/imageOne.jpg"></img>
-                    <img class="imageOne" src="/images/imageTwo.jpg"></img>
-                    <img class="imageOne" src="/images/imageThree.jpg"></img>
-                    <img class="imageOne" src="/images/imageFour.jpg"></img>
+                <div class="slideshowContainer">
+                    <div class="imageContainer">
+                        <img class="slideImage" src="/images/imageOne.jpg"></img>
+                        <img class="slideImage" src="/images/imageTwo.jpg"></img>
+                        <img class="slideImage" src="/images/imageThree.jpg"></img>
+                        <img class="slideImage" src="/images/imageFour.png"></img>
+                    </div>
                 </div>
             </div>
+            <!-- Start Footer-->
             <div class="containFooter"> </div>
+            <!-- End Footer-->
+            <!-- Start Left Sidebar-->
             <div class="sidebarLeft"> </div>
+            <!-- End Left Sidebar-->
+            <!-- Start Right Sidebar-->
             <div class="sidebarRight"> </div>
+            <!-- End Right Sidebar-->
         </div>
     </body>
-
-    <!-- This is the Footer-->
-    <footer id="layoutFooter">
-
-    </footer>
 </html>

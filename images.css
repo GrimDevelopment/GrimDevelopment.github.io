@@ -1,15 +1,29 @@
-/**
+/**8
  * Photo Design
  */
-.imageOne {
-    width: 50px;
+
+.imageContainer {
+    border: 2px solid #73AD21;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 25px;
+    top: 0px;
 }
-.imageTwo {
-    width: 50px;
+
+.slideImage {
+    display: inline;
+    position: relative;
+    width: 800px;
+    height: 400px;
 }
-.imageThree {
-    width: 50px;
+.btnLeft {
+    position: absolute;
+    left: 10px;
+    top: 200px;
 }
-.imageFour {
-    width: 50px;
+.btnRight {
+    position: absolute;
+    right: 10px;
+    top: 200px;
 }
