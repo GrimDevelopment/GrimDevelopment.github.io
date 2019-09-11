@@ -20,3 +20,6 @@
     grid-row-gap: 0px;
     border: 2px solid #73AD21;
 }
+.body {
+    width: 100%;
+}
