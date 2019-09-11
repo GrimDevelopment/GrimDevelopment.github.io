@@ -1,6 +1,6 @@
 .centerBody {
     position: relative;
-    background-color: black;
+    background-color: #252525;
     border-width: 8px;
     grid-area: 2 / 2 / 5 / 5;
     border: 2px solid #73AD21;
