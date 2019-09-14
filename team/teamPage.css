@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    border: 2px solid green;
+    
+}
+.githubWidget {
+    border: 2px solid green;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}

@@ -1,97 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <!-- Tab Title -->
-    <head id="layoutHead">
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GrimDevelopment</title>
-        <link rel="stylesheet" type="text/css" href="divParent.css">
-        <link rel="stylesheet" type="text/css" href="header.css">
-        <link rel="stylesheet" type="text/css" href="centerBody.css">
-        <link rel="stylesheet" type="text/css" href="footer.css">
-        <link rel="stylesheet" type="text/css" href="sidebarLeft.css">
-        <link rel="stylesheet" type="text/css" href="sidebarRight.css">
-        <link rel="stylesheet" type="text/css" href="elements/buttons/buttons.css">
-        <link rel="stylesheet" type="text/css" href="images.css">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <script src="slideshow.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Home</title>
     </head>
-
-    <!-- This is the body of the webpage -->
     <body id="layoutBody">
         <div class="parent">
-            <!-- Start Header -->
             <div class="header">
-                <nav class="navContainter">
-                    <button class="btnHome" type="button">
-                        <a href="/">
-                            <b>home</b>
-                        </a>
-                    </button>
-                    <button class="btnAbout" type="button">
-                        <a href="/about/">
-                            <b>about</b>
-                        </a>
-                    </button>
-                    <button class="btnGithub" type="button">
-                        <a href="http://github.com/grimdevelopment">
-                            <b>github</b>
-                        </a>
-                    </button>
-                    <button class="btnContact" type="button">
-                        <a href="/contact/">
-                            <b>contact</b>
-                        </a>
-                    </button>
-                    <button class="btnCommits" type="button">
-                        <a href="/commits/">
-                            <b>
-                                Commits
-                            </b>
-                        </a>
-                    </button>
-                </nav>
-                <div class="profileContainer">
-                    <img class="profileImage" src="/images/profileImage.png">
-                </div>
-            </div>
-            <!-- End Header -->
-            <!-- Start Center Body-->
-            <div class="centerBody">
-                    <button class="btnLeft" onclick="plusDivs(-1)">
-                        &#10094;
-                    </button>
-                    <button class="btnRight" onclick="plusDivs(+1)">
-                        &#10095;
-                    </button>
-                <div class="slideshowContainer">
-                    <div class="imageContainer">
-                        <img class="slideImage" src="/images/imageOne.jpg"></img>
-                        <img class="slideImage" src="/images/imageTwo.jpg"></img>
-                        <img class="slideImage" src="/images/imageThree.jpg"></img>
-                        <img class="slideImage" src="/images/imageFour.png"></img>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarMenu">
+                            <ul class="navbar-nav">
+                                <li><a class="nav-link active" href="/">Home</a></li>
+                                <li><a class="nav-link" href="/about/">About</a></li>
+                                <li><a class="nav-link" href="/team/">Team</a></li>
+                                <li><a class="nav-link" href="/projects/">Projects</a></li>
+                                <li><a class="nav-link" href="/contact/">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="descBox">
-                    <article class="description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, voluptatum!
-                    </article>
-                </div>
+                </nav>
             </div>
-            <!-- Start Footer-->
-            <div class="containFooter"> </div>
-            <!-- End Footer-->
-            <!-- Start Left Sidebar-->
-            <div class="sidebarLeft">
-                <b>
-                    commits
-                </b>
-
-            </div>
-            <!-- End Left Sidebar-->
-            <!-- Start Right Sidebar-->
+            <div class="centerBody"></div>
+            <div class="containFooter"></div>
+            <div class="sidebarLeft"></div>
             <div class="sidebarRight"> </div>
-            <!-- End Right Sidebar-->
         </div>
+
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -2,61 +2,13 @@
  * Button Design
  */
 .btnHome {
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
     padding: 10px;
     text-align: center;
     color: black;
     font-variant: small-caps;
     position: absolute;
-    left: 0px;
+    left: -30px;
     border-radius: 15px 15px 0px 0px;
-}
-.btnAbout {
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-variant: small-caps;
-    position: absolute;
-    left: 100px;
-    border-radius: 15px 15px 0px 0px;
-}
-.btnGithub {
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-variant: small-caps;
-    position: absolute;
-    left: 200px;
-    border-radius: 15px 15px 0px 0px;
-}
-.btnContact {
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-variant: small-caps;
-    position: absolute;
-    left: 300px;
-    border-radius: 15px 15px 0px 0px;
-}
-.btnCommits {
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-variant: small-caps;
-    position: absolute;
-    left: 400px;
-    border-radius: 15px 15px 0px 0px;
-}
-.btnLeft {
-}
-.btnRight {
 }
