@@ -1,14 +1,3 @@
 /**
  * Button Design
  */
-.btnHome {
-    width: 200px;
-    height: 100px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-    font-variant: small-caps;
-    position: absolute;
-    left: -30px;
-    border-radius: 15px 15px 0px 0px;
-}
