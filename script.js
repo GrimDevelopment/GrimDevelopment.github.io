@@ -1,8 +1,8 @@
-const url 		= "https://blockchain.info/ticker";
+const url = "https://blockchain.info/ticker";
 
 function actualiserPrix() {
-	const req 	= new XMLHttpRequest();
-	const method 	= 'GET';
+	const req = new XMLHttpRequest();
+	const method = 'GET';
 	
 	req.open(method, url);
 	req.onreadystatechange = function(event) {
