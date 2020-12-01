@@ -9,7 +9,7 @@ function actualiserPrix() {
 		if (this.readyState === XMLHttpRequest.DONE) {
 			if (this.status === 200) {
 				const response = JSON.parse(this.responseText);
-				document.getElementById("price_label_euros").textContent = response.USD.buy;
+				document.getElementById("price_label_usd").textContent = response.USD.buy;
 			} else {
 				console.log("status :" + this.status);
 			}
